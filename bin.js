@@ -1,0 +1,104 @@
+#!/usr/bin/env node
+const BBY_API_KEY_MSG = 'BBY_API_KEY environment variable'
+const RESOURCES = ['products', 'categories', 'stores', 'availability']
+
+const run = require('.')
+
+function cli (args, stream, cb) {
+  var clopts = require('cliclopts')([
+    {
+      name: 'query',
+      abbr: 'q',
+      help: 'use a custom query to filter the results'
+    },
+    {
+      name: 'show',
+      abbr: 's',
+      help: 'fields to show'
+    },
+    {
+      name: 'key',
+      abbr: 'k',
+      help: 'Best Buy API key',
+      default: BBY_API_KEY_MSG
+    },
+    {
+      name: 'format',
+      abbr: 'f',
+      help: 'format of the response as json or xml',
+      default: 'json'
+    },
+    {
+      name: 'output',
+      abbr: 'o',
+      help: 'name of file to send output'
+    },
+    {
+      name: 'version',
+      abbr: 'v',
+      boolean: true,
+      help: 'show version information'
+    },
+    {
+      name: 'help',
+      abbr: 'h',
+      help: 'show help',
+      boolean: true
+    }
+  ])
+
+  var argv = require('minimist')(args, {
+    alias: clopts.alias(),
+    boolean: clopts.boolean(),
+    default: clopts.default()
+  })
+
+  argv.resource = argv.resource || argv._[0]
+
+  if (argv.version) {
+    stream.write(require('./package').version + '\n')
+    return cb()
+  }
+
+  if (!argv.resource) argv.help = true
+
+  if (argv.help) {
+    stream.write(`
+Best Buy Bulk Download Tool
+
+Usage: bestbuy [resource] [options]
+
+    Examples:
+      bestbuy categories
+      bestbuy products --query "active=true" --show "name,sku" --output products.json
+      bestbuy stores --format xml --output stores.xml
+
+    resource              resource to download: ${RESOURCES.join(', ')}
+`)
+    clopts.print(stream)
+
+    stream.write(`\nVisit https://developer.bestbuy.com/documentation for more details on writing custom queries.\n`)
+    return cb()
+  }
+
+  argv.query = argv.query || ''
+
+  if (argv.key === BBY_API_KEY_MSG) argv.key = process.env.BBY_API_KEY
+
+  if (RESOURCES.indexOf(argv.resource) < 0) {
+    return cb(new Error(`Invalid resource: ${argv.resource}`))
+  }
+  run(argv, stream, cb)
+}
+
+if (require.main === module) {
+  cli(process.argv.slice(2), process.stdout, function done (err) {
+    if (err) {
+      console.error(err.message)
+      process.exit(-1)
+    }
+    process.exit(0)
+  })
+} else {
+  module.exports = cli
+}

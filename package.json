@@ -1,0 +1,50 @@
+{
+  "name": "bestbuy-cli",
+  "description": "Download data from the Best Buy Catalog API in bulk from the command line",
+  "version": "1.0.0",
+  "author": "Dan Flettre <flettre@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/BestBuyAPIs/bestbuy-cli/issues"
+  },
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "bestbuy": "^2.0.1",
+    "cliclopts": "^1.1.1",
+    "log-update": "^2.1.0",
+    "minimist": "^1.2.0",
+    "pretty-ms": "^3.0.0",
+    "stdout-stream": "^1.4.0"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "concat-stream": "^1.6.0",
+    "tape": "^4.8.0",
+    "to2": "^1.0.0"
+  },
+  "homepage": "https://github.com/BestBuyAPIs/bestbuy-cli",
+  "keywords": [
+    "api",
+    "bestbuy",
+    "bulk",
+    "catalog",
+    "cli",
+    "command",
+    "download",
+    "line",
+    "products"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "bestbuy": "./bin.js",
+    "bestbuy-cli": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BestBuyAPIs/bestbuy-cli.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.test.js | tap-spec"
+  }
+}
