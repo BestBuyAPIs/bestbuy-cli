@@ -22,7 +22,8 @@ npm install --global bestbuy-cli
 ## Usage
 
 ```bash
-bestbuy --help
+>bestbuy --help
+
 
 Best Buy Bulk Download Tool
 
@@ -33,12 +34,13 @@ Usage: bestbuy [resource] [options]
       bestbuy products --query "active=true" --show "name,sku" --output products.json
       bestbuy stores --format xml --output stores.xml
 
-    resource              resource to download: products, categories, stores, availability
+    resource              resource to download: products, categories, stores
     --query, -q           use a custom query to filter the results
     --show, -s            fields to show
     --key, -k             Best Buy API key (default: "BBY_API_KEY environment variable")
     --format, -f          format of the response as json or xml (default: "json")
     --output, -o          name of file to send output
+    --bare, -b            newline delimited - each item on own line without extra cruft (default: false)
     --version, -v         show version information
     --help, -h            show help
 
