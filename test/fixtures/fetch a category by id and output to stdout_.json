@@ -1,0 +1,84 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories(id=abcat0010000)?format=json&apiKey=XXX&show=name&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMsYWJjYXQwMDEwMDAwCD+AAAA4Y2F0ZWdvcnlfYWJjYXQwMDEwMDAwX3Vz",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.053",
+            "totalTime": "0.060",
+            "partial": false,
+            "canonicalUrl": "/v1/categories(id=\"abcat0010000\")?show=name&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "categories": [
+                {
+                    "name": "Gift Ideas"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:59:36 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "332",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories(id=abcat0010000)?format=json&apiKey=XXX&show=name&cursorMark=AoMsYWJjYXQwMDEwMDAwCD%2BAAAA4Y2F0ZWdvcnlfYWJjYXQwMDEwMDAwX3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMsYWJjYXQwMDEwMDAwCD+AAAA4Y2F0ZWdvcnlfYWJjYXQwMDEwMDAwX3Vz",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.022",
+            "totalTime": "0.022",
+            "partial": false,
+            "canonicalUrl": "/v1/categories(id=\"abcat0010000\")?show=name&pageSize=100&cursorMark=AoMsYWJjYXQwMDEwMDAwCD+AAAA4Y2F0ZWdvcnlfYWJjYXQwMDEwMDAwX3Vz&format=json&apiKey=XXX",
+            "categories": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:57:58 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "370",
+            "Connection",
+            "Close"
+        ]
+    }
+]

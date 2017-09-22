@@ -1,0 +1,89 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(postalCode=55109)?format=json&apiKey=XXX&show=name,storeType&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNTUxMDkIP4AAAC1zdG9yZV8yNzAxX3Vz",
+            "total": 2,
+            "totalPages": 1,
+            "queryTime": "0.008",
+            "totalTime": "0.012",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(postalCode=\"55109\")?show=name,storeType&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "name": "MAPLEWOOD MN",
+                    "storeType": "Big Box"
+                },
+                {
+                    "name": "MAPLEWOOD MALL",
+                    "storeType": "Mobile SAS"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:59:36 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "386",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(postalCode=55109)?format=json&apiKey=XXX&show=name,storeType&cursorMark=AoMlNTUxMDkIP4AAAC1zdG9yZV8yNzAxX3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNTUxMDkIP4AAAC1zdG9yZV8yNzAxX3Vz",
+            "total": 2,
+            "totalPages": 1,
+            "queryTime": "0.022",
+            "totalTime": "0.023",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(postalCode=\"55109\")?show=name,storeType&pageSize=100&cursorMark=AoMlNTUxMDkIP4AAAC1zdG9yZV8yNzAxX3Vz&format=json&apiKey=XXX",
+            "stores": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:59:36 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "325",
+            "Connection",
+            "Close"
+        ]
+    }
+]

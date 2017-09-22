@@ -13,13 +13,16 @@
     "log-update": "^2.1.0",
     "minimist": "^1.2.0",
     "pretty-ms": "^3.0.0",
+    "pump": "^1.0.2",
     "stdout-stream": "^1.4.0"
   },
   "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "rimraf": "^2.6.2",
     "standard": "*",
     "tap-spec": "^4.0.2",
-    "concat-stream": "^1.6.0",
     "tape": "^4.8.0",
+    "tape-nock": "^1.6.0",
     "to2": "^1.0.0"
   },
   "homepage": "https://github.com/BestBuyAPIs/bestbuy-cli",

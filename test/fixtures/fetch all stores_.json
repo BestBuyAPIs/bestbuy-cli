@@ -1,0 +1,3544 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlMTE1ODEIP4AAACxzdG9yZV85NTBfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.045",
+            "totalTime": "0.088",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 418
+                },
+                {
+                    "storeId": 1433
+                },
+                {
+                    "storeId": 2506
+                },
+                {
+                    "storeId": 567
+                },
+                {
+                    "storeId": 532
+                },
+                {
+                    "storeId": 820
+                },
+                {
+                    "storeId": 1407
+                },
+                {
+                    "storeId": 1532
+                },
+                {
+                    "storeId": 818
+                },
+                {
+                    "storeId": 533
+                },
+                {
+                    "storeId": 436
+                },
+                {
+                    "storeId": 1140
+                },
+                {
+                    "storeId": 1126
+                },
+                {
+                    "storeId": 537
+                },
+                {
+                    "storeId": 1088
+                },
+                {
+                    "storeId": 530
+                },
+                {
+                    "storeId": 877
+                },
+                {
+                    "storeId": 385
+                },
+                {
+                    "storeId": 596
+                },
+                {
+                    "storeId": 568
+                },
+                {
+                    "storeId": 343
+                },
+                {
+                    "storeId": 441
+                },
+                {
+                    "storeId": 806
+                },
+                {
+                    "storeId": 1461
+                },
+                {
+                    "storeId": 569
+                },
+                {
+                    "storeId": 534
+                },
+                {
+                    "storeId": 419
+                },
+                {
+                    "storeId": 536
+                },
+                {
+                    "storeId": 591
+                },
+                {
+                    "storeId": 868
+                },
+                {
+                    "storeId": 535
+                },
+                {
+                    "storeId": 531
+                },
+                {
+                    "storeId": 1420
+                },
+                {
+                    "storeId": 1464
+                },
+                {
+                    "storeId": 463
+                },
+                {
+                    "storeId": 360
+                },
+                {
+                    "storeId": 484
+                },
+                {
+                    "storeId": 1026
+                },
+                {
+                    "storeId": 1468
+                },
+                {
+                    "storeId": 381
+                },
+                {
+                    "storeId": 487
+                },
+                {
+                    "storeId": 549
+                },
+                {
+                    "storeId": 760
+                },
+                {
+                    "storeId": 1488
+                },
+                {
+                    "storeId": 300
+                },
+                {
+                    "storeId": 1067
+                },
+                {
+                    "storeId": 331
+                },
+                {
+                    "storeId": 886
+                },
+                {
+                    "storeId": 472
+                },
+                {
+                    "storeId": 1506
+                },
+                {
+                    "storeId": 474
+                },
+                {
+                    "storeId": 1535
+                },
+                {
+                    "storeId": 468
+                },
+                {
+                    "storeId": 2509
+                },
+                {
+                    "storeId": 344
+                },
+                {
+                    "storeId": 887
+                },
+                {
+                    "storeId": 1895
+                },
+                {
+                    "storeId": 388
+                },
+                {
+                    "storeId": 1137
+                },
+                {
+                    "storeId": 400
+                },
+                {
+                    "storeId": 457
+                },
+                {
+                    "storeId": 473
+                },
+                {
+                    "storeId": 1098
+                },
+                {
+                    "storeId": 1177
+                },
+                {
+                    "storeId": 583
+                },
+                {
+                    "storeId": 579
+                },
+                {
+                    "storeId": 581
+                },
+                {
+                    "storeId": 692
+                },
+                {
+                    "storeId": 578
+                },
+                {
+                    "storeId": 475
+                },
+                {
+                    "storeId": 544
+                },
+                {
+                    "storeId": 598
+                },
+                {
+                    "storeId": 456
+                },
+                {
+                    "storeId": 1154
+                },
+                {
+                    "storeId": 1538
+                },
+                {
+                    "storeId": 1531
+                },
+                {
+                    "storeId": 482
+                },
+                {
+                    "storeId": 609
+                },
+                {
+                    "storeId": 1028
+                },
+                {
+                    "storeId": 1448
+                },
+                {
+                    "storeId": 835
+                },
+                {
+                    "storeId": 469
+                },
+                {
+                    "storeId": 1172
+                },
+                {
+                    "storeId": 1891
+                },
+                {
+                    "storeId": 822
+                },
+                {
+                    "storeId": 1029
+                },
+                {
+                    "storeId": 471
+                },
+                {
+                    "storeId": 374
+                },
+                {
+                    "storeId": 461
+                },
+                {
+                    "storeId": 1394
+                },
+                {
+                    "storeId": 455
+                },
+                {
+                    "storeId": 478
+                },
+                {
+                    "storeId": 599
+                },
+                {
+                    "storeId": 2518
+                },
+                {
+                    "storeId": 1520
+                },
+                {
+                    "storeId": 1886
+                },
+                {
+                    "storeId": 1115
+                },
+                {
+                    "storeId": 483
+                },
+                {
+                    "storeId": 1467
+                },
+                {
+                    "storeId": 950
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:16:25 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1922",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlMTE1ODEIP4AAACxzdG9yZV85NTBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlMjIxNTAIP4AAACxzdG9yZV8yNjlfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.053",
+            "totalTime": "0.098",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlMTE1ODEIP4AAACxzdG9yZV85NTBfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 454
+                },
+                {
+                    "storeId": 442
+                },
+                {
+                    "storeId": 458
+                },
+                {
+                    "storeId": 200
+                },
+                {
+                    "storeId": 345
+                },
+                {
+                    "storeId": 467
+                },
+                {
+                    "storeId": 824
+                },
+                {
+                    "storeId": 809
+                },
+                {
+                    "storeId": 428
+                },
+                {
+                    "storeId": 518
+                },
+                {
+                    "storeId": 460
+                },
+                {
+                    "storeId": 541
+                },
+                {
+                    "storeId": 1091
+                },
+                {
+                    "storeId": 1183
+                },
+                {
+                    "storeId": 538
+                },
+                {
+                    "storeId": 1127
+                },
+                {
+                    "storeId": 545
+                },
+                {
+                    "storeId": 1089
+                },
+                {
+                    "storeId": 1380
+                },
+                {
+                    "storeId": 1131
+                },
+                {
+                    "storeId": 1455
+                },
+                {
+                    "storeId": 1152
+                },
+                {
+                    "storeId": 459
+                },
+                {
+                    "storeId": 1541
+                },
+                {
+                    "storeId": 433
+                },
+                {
+                    "storeId": 1400
+                },
+                {
+                    "storeId": 384
+                },
+                {
+                    "storeId": 1036
+                },
+                {
+                    "storeId": 1164
+                },
+                {
+                    "storeId": 586
+                },
+                {
+                    "storeId": 882
+                },
+                {
+                    "storeId": 432
+                },
+                {
+                    "storeId": 588
+                },
+                {
+                    "storeId": 585
+                },
+                {
+                    "storeId": 584
+                },
+                {
+                    "storeId": 595
+                },
+                {
+                    "storeId": 1267
+                },
+                {
+                    "storeId": 825
+                },
+                {
+                    "storeId": 597
+                },
+                {
+                    "storeId": 1015
+                },
+                {
+                    "storeId": 369
+                },
+                {
+                    "storeId": 1478
+                },
+                {
+                    "storeId": 547
+                },
+                {
+                    "storeId": 1087
+                },
+                {
+                    "storeId": 1197
+                },
+                {
+                    "storeId": 1039
+                },
+                {
+                    "storeId": 1794
+                },
+                {
+                    "storeId": 1403
+                },
+                {
+                    "storeId": 587
+                },
+                {
+                    "storeId": 1442
+                },
+                {
+                    "storeId": 341
+                },
+                {
+                    "storeId": 342
+                },
+                {
+                    "storeId": 1395
+                },
+                {
+                    "storeId": 577
+                },
+                {
+                    "storeId": 582
+                },
+                {
+                    "storeId": 576
+                },
+                {
+                    "storeId": 589
+                },
+                {
+                    "storeId": 898
+                },
+                {
+                    "storeId": 1764
+                },
+                {
+                    "storeId": 197
+                },
+                {
+                    "storeId": 1193
+                },
+                {
+                    "storeId": 525
+                },
+                {
+                    "storeId": 448
+                },
+                {
+                    "storeId": 1771
+                },
+                {
+                    "storeId": 580
+                },
+                {
+                    "storeId": 1480
+                },
+                {
+                    "storeId": 465
+                },
+                {
+                    "storeId": 842
+                },
+                {
+                    "storeId": 1092
+                },
+                {
+                    "storeId": 801
+                },
+                {
+                    "storeId": 356
+                },
+                {
+                    "storeId": 1449
+                },
+                {
+                    "storeId": 146
+                },
+                {
+                    "storeId": 1022
+                },
+                {
+                    "storeId": 297
+                },
+                {
+                    "storeId": 446
+                },
+                {
+                    "storeId": 1003
+                },
+                {
+                    "storeId": 1776
+                },
+                {
+                    "storeId": 265
+                },
+                {
+                    "storeId": 486
+                },
+                {
+                    "storeId": 2508
+                },
+                {
+                    "storeId": 293
+                },
+                {
+                    "storeId": 819
+                },
+                {
+                    "storeId": 288
+                },
+                {
+                    "storeId": 1129
+                },
+                {
+                    "storeId": 296
+                },
+                {
+                    "storeId": 290
+                },
+                {
+                    "storeId": 263
+                },
+                {
+                    "storeId": 1053
+                },
+                {
+                    "storeId": 149
+                },
+                {
+                    "storeId": 1436
+                },
+                {
+                    "storeId": 159
+                },
+                {
+                    "storeId": 163
+                },
+                {
+                    "storeId": 427
+                },
+                {
+                    "storeId": 1445
+                },
+                {
+                    "storeId": 772
+                },
+                {
+                    "storeId": 1199
+                },
+                {
+                    "storeId": 273
+                },
+                {
+                    "storeId": 283
+                },
+                {
+                    "storeId": 269
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:12 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1959",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlMjIxNTAIP4AAACxzdG9yZV8yNjlfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlMzEwOTMIP4AAAC1zdG9yZV8xMTg1X3Vz",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.010",
+            "totalTime": "0.053",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlMjIxNTAIP4AAACxzdG9yZV8yNjlfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 397
+                },
+                {
+                    "storeId": 287
+                },
+                {
+                    "storeId": 276
+                },
+                {
+                    "storeId": 493
+                },
+                {
+                    "storeId": 166
+                },
+                {
+                    "storeId": 1476
+                },
+                {
+                    "storeId": 1086
+                },
+                {
+                    "storeId": 1534
+                },
+                {
+                    "storeId": 860
+                },
+                {
+                    "storeId": 1013
+                },
+                {
+                    "storeId": 423
+                },
+                {
+                    "storeId": 1465
+                },
+                {
+                    "storeId": 1437
+                },
+                {
+                    "storeId": 1444
+                },
+                {
+                    "storeId": 422
+                },
+                {
+                    "storeId": 421
+                },
+                {
+                    "storeId": 766
+                },
+                {
+                    "storeId": 1460
+                },
+                {
+                    "storeId": 420
+                },
+                {
+                    "storeId": 479
+                },
+                {
+                    "storeId": 788
+                },
+                {
+                    "storeId": 434
+                },
+                {
+                    "storeId": 1149
+                },
+                {
+                    "storeId": 1085
+                },
+                {
+                    "storeId": 444
+                },
+                {
+                    "storeId": 1266
+                },
+                {
+                    "storeId": 1528
+                },
+                {
+                    "storeId": 573
+                },
+                {
+                    "storeId": 1798
+                },
+                {
+                    "storeId": 832
+                },
+                {
+                    "storeId": 158
+                },
+                {
+                    "storeId": 648
+                },
+                {
+                    "storeId": 155
+                },
+                {
+                    "storeId": 147
+                },
+                {
+                    "storeId": 574
+                },
+                {
+                    "storeId": 1492
+                },
+                {
+                    "storeId": 299
+                },
+                {
+                    "storeId": 821
+                },
+                {
+                    "storeId": 1453
+                },
+                {
+                    "storeId": 160
+                },
+                {
+                    "storeId": 1051
+                },
+                {
+                    "storeId": 386
+                },
+                {
+                    "storeId": 1892
+                },
+                {
+                    "storeId": 1132
+                },
+                {
+                    "storeId": 268
+                },
+                {
+                    "storeId": 175
+                },
+                {
+                    "storeId": 261
+                },
+                {
+                    "storeId": 1133
+                },
+                {
+                    "storeId": 262
+                },
+                {
+                    "storeId": 1108
+                },
+                {
+                    "storeId": 1155
+                },
+                {
+                    "storeId": 1107
+                },
+                {
+                    "storeId": 1767
+                },
+                {
+                    "storeId": 174
+                },
+                {
+                    "storeId": 601
+                },
+                {
+                    "storeId": 378
+                },
+                {
+                    "storeId": 805
+                },
+                {
+                    "storeId": 1451
+                },
+                {
+                    "storeId": 425
+                },
+                {
+                    "storeId": 953
+                },
+                {
+                    "storeId": 1385
+                },
+                {
+                    "storeId": 445
+                },
+                {
+                    "storeId": 1466
+                },
+                {
+                    "storeId": 264
+                },
+                {
+                    "storeId": 270
+                },
+                {
+                    "storeId": 1515
+                },
+                {
+                    "storeId": 294
+                },
+                {
+                    "storeId": 517
+                },
+                {
+                    "storeId": 1120
+                },
+                {
+                    "storeId": 1428
+                },
+                {
+                    "storeId": 826
+                },
+                {
+                    "storeId": 855
+                },
+                {
+                    "storeId": 272
+                },
+                {
+                    "storeId": 520
+                },
+                {
+                    "storeId": 894
+                },
+                {
+                    "storeId": 664
+                },
+                {
+                    "storeId": 389
+                },
+                {
+                    "storeId": 516
+                },
+                {
+                    "storeId": 1408
+                },
+                {
+                    "storeId": 776
+                },
+                {
+                    "storeId": 502
+                },
+                {
+                    "storeId": 513
+                },
+                {
+                    "storeId": 504
+                },
+                {
+                    "storeId": 1159
+                },
+                {
+                    "storeId": 1186
+                },
+                {
+                    "storeId": 519
+                },
+                {
+                    "storeId": 1486
+                },
+                {
+                    "storeId": 501
+                },
+                {
+                    "storeId": 668
+                },
+                {
+                    "storeId": 505
+                },
+                {
+                    "storeId": 1037
+                },
+                {
+                    "storeId": 1049
+                },
+                {
+                    "storeId": 896
+                },
+                {
+                    "storeId": 890
+                },
+                {
+                    "storeId": 503
+                },
+                {
+                    "storeId": 1071
+                },
+                {
+                    "storeId": 426
+                },
+                {
+                    "storeId": 511
+                },
+                {
+                    "storeId": 507
+                },
+                {
+                    "storeId": 1185
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:12 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1959",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlMzEwOTMIP4AAAC1zdG9yZV8xMTg1X3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlMzg4MDQIP4AAACxzdG9yZV83NzhfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.007",
+            "totalTime": "0.050",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlMzEwOTMIP4AAAC1zdG9yZV8xMTg1X3Vz&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 365
+                },
+                {
+                    "storeId": 508
+                },
+                {
+                    "storeId": 789
+                },
+                {
+                    "storeId": 843
+                },
+                {
+                    "storeId": 515
+                },
+                {
+                    "storeId": 1763
+                },
+                {
+                    "storeId": 1475
+                },
+                {
+                    "storeId": 429
+                },
+                {
+                    "storeId": 430
+                },
+                {
+                    "storeId": 1790
+                },
+                {
+                    "storeId": 350
+                },
+                {
+                    "storeId": 435
+                },
+                {
+                    "storeId": 857
+                },
+                {
+                    "storeId": 395
+                },
+                {
+                    "storeId": 799
+                },
+                {
+                    "storeId": 424
+                },
+                {
+                    "storeId": 509
+                },
+                {
+                    "storeId": 608
+                },
+                {
+                    "storeId": 157
+                },
+                {
+                    "storeId": 510
+                },
+                {
+                    "storeId": 571
+                },
+                {
+                    "storeId": 1530
+                },
+                {
+                    "storeId": 512
+                },
+                {
+                    "storeId": 816
+                },
+                {
+                    "storeId": 555
+                },
+                {
+                    "storeId": 559
+                },
+                {
+                    "storeId": 1178
+                },
+                {
+                    "storeId": 1424
+                },
+                {
+                    "storeId": 1136
+                },
+                {
+                    "storeId": 1498
+                },
+                {
+                    "storeId": 557
+                },
+                {
+                    "storeId": 553
+                },
+                {
+                    "storeId": 1503
+                },
+                {
+                    "storeId": 1502
+                },
+                {
+                    "storeId": 558
+                },
+                {
+                    "storeId": 552
+                },
+                {
+                    "storeId": 543
+                },
+                {
+                    "storeId": 551
+                },
+                {
+                    "storeId": 1258
+                },
+                {
+                    "storeId": 550
+                },
+                {
+                    "storeId": 688
+                },
+                {
+                    "storeId": 1168
+                },
+                {
+                    "storeId": 808
+                },
+                {
+                    "storeId": 554
+                },
+                {
+                    "storeId": 560
+                },
+                {
+                    "storeId": 1405
+                },
+                {
+                    "storeId": 561
+                },
+                {
+                    "storeId": 462
+                },
+                {
+                    "storeId": 2513
+                },
+                {
+                    "storeId": 565
+                },
+                {
+                    "storeId": 564
+                },
+                {
+                    "storeId": 563
+                },
+                {
+                    "storeId": 1184
+                },
+                {
+                    "storeId": 431
+                },
+                {
+                    "storeId": 1135
+                },
+                {
+                    "storeId": 767
+                },
+                {
+                    "storeId": 1539
+                },
+                {
+                    "storeId": 524
+                },
+                {
+                    "storeId": 1141
+                },
+                {
+                    "storeId": 562
+                },
+                {
+                    "storeId": 1452
+                },
+                {
+                    "storeId": 862
+                },
+                {
+                    "storeId": 1383
+                },
+                {
+                    "storeId": 885
+                },
+                {
+                    "storeId": 1411
+                },
+                {
+                    "storeId": 443
+                },
+                {
+                    "storeId": 1156
+                },
+                {
+                    "storeId": 881
+                },
+                {
+                    "storeId": 1162
+                },
+                {
+                    "storeId": 1446
+                },
+                {
+                    "storeId": 1004
+                },
+                {
+                    "storeId": 383
+                },
+                {
+                    "storeId": 807
+                },
+                {
+                    "storeId": 1540
+                },
+                {
+                    "storeId": 514
+                },
+                {
+                    "storeId": 1785
+                },
+                {
+                    "storeId": 836
+                },
+                {
+                    "storeId": 1097
+                },
+                {
+                    "storeId": 793
+                },
+                {
+                    "storeId": 678
+                },
+                {
+                    "storeId": 340
+                },
+                {
+                    "storeId": 662
+                },
+                {
+                    "storeId": 170
+                },
+                {
+                    "storeId": 663
+                },
+                {
+                    "storeId": 172
+                },
+                {
+                    "storeId": 1064
+                },
+                {
+                    "storeId": 1425
+                },
+                {
+                    "storeId": 1130
+                },
+                {
+                    "storeId": 1070
+                },
+                {
+                    "storeId": 488
+                },
+                {
+                    "storeId": 899
+                },
+                {
+                    "storeId": 1894
+                },
+                {
+                    "storeId": 169
+                },
+                {
+                    "storeId": 1382
+                },
+                {
+                    "storeId": 1399
+                },
+                {
+                    "storeId": 171
+                },
+                {
+                    "storeId": 165
+                },
+                {
+                    "storeId": 853
+                },
+                {
+                    "storeId": 1447
+                },
+                {
+                    "storeId": 778
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:12 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1958",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlMzg4MDQIP4AAACxzdG9yZV83NzhfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNDkyMDIIP4AAACxzdG9yZV80NzZfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.009",
+            "totalTime": "0.050",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlMzg4MDQIP4AAACxzdG9yZV83NzhfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 1519
+                },
+                {
+                    "storeId": 938
+                },
+                {
+                    "storeId": 1439
+                },
+                {
+                    "storeId": 661
+                },
+                {
+                    "storeId": 1174
+                },
+                {
+                    "storeId": 1781
+                },
+                {
+                    "storeId": 333
+                },
+                {
+                    "storeId": 335
+                },
+                {
+                    "storeId": 259
+                },
+                {
+                    "storeId": 1477
+                },
+                {
+                    "storeId": 161
+                },
+                {
+                    "storeId": 817
+                },
+                {
+                    "storeId": 440
+                },
+                {
+                    "storeId": 1121
+                },
+                {
+                    "storeId": 791
+                },
+                {
+                    "storeId": 156
+                },
+                {
+                    "storeId": 1167
+                },
+                {
+                    "storeId": 145
+                },
+                {
+                    "storeId": 292
+                },
+                {
+                    "storeId": 1096
+                },
+                {
+                    "storeId": 339
+                },
+                {
+                    "storeId": 295
+                },
+                {
+                    "storeId": 570
+                },
+                {
+                    "storeId": 247
+                },
+                {
+                    "storeId": 1429
+                },
+                {
+                    "storeId": 243
+                },
+                {
+                    "storeId": 1050
+                },
+                {
+                    "storeId": 284
+                },
+                {
+                    "storeId": 758
+                },
+                {
+                    "storeId": 168
+                },
+                {
+                    "storeId": 279
+                },
+                {
+                    "storeId": 271
+                },
+                {
+                    "storeId": 162
+                },
+                {
+                    "storeId": 1099
+                },
+                {
+                    "storeId": 278
+                },
+                {
+                    "storeId": 285
+                },
+                {
+                    "storeId": 834
+                },
+                {
+                    "storeId": 257
+                },
+                {
+                    "storeId": 880
+                },
+                {
+                    "storeId": 286
+                },
+                {
+                    "storeId": 879
+                },
+                {
+                    "storeId": 390
+                },
+                {
+                    "storeId": 617
+                },
+                {
+                    "storeId": 394
+                },
+                {
+                    "storeId": 154
+                },
+                {
+                    "storeId": 153
+                },
+                {
+                    "storeId": 494
+                },
+                {
+                    "storeId": 1474
+                },
+                {
+                    "storeId": 266
+                },
+                {
+                    "storeId": 274
+                },
+                {
+                    "storeId": 790
+                },
+                {
+                    "storeId": 795
+                },
+                {
+                    "storeId": 1094
+                },
+                {
+                    "storeId": 490
+                },
+                {
+                    "storeId": 1025
+                },
+                {
+                    "storeId": 489
+                },
+                {
+                    "storeId": 230
+                },
+                {
+                    "storeId": 232
+                },
+                {
+                    "storeId": 229
+                },
+                {
+                    "storeId": 231
+                },
+                {
+                    "storeId": 1774
+                },
+                {
+                    "storeId": 951
+                },
+                {
+                    "storeId": 309
+                },
+                {
+                    "storeId": 325
+                },
+                {
+                    "storeId": 368
+                },
+                {
+                    "storeId": 228
+                },
+                {
+                    "storeId": 371
+                },
+                {
+                    "storeId": 1010
+                },
+                {
+                    "storeId": 2512
+                },
+                {
+                    "storeId": 491
+                },
+                {
+                    "storeId": 1252
+                },
+                {
+                    "storeId": 858
+                },
+                {
+                    "storeId": 227
+                },
+                {
+                    "storeId": 2501
+                },
+                {
+                    "storeId": 327
+                },
+                {
+                    "storeId": 404
+                },
+                {
+                    "storeId": 1095
+                },
+                {
+                    "storeId": 415
+                },
+                {
+                    "storeId": 407
+                },
+                {
+                    "storeId": 414
+                },
+                {
+                    "storeId": 1406
+                },
+                {
+                    "storeId": 408
+                },
+                {
+                    "storeId": 841
+                },
+                {
+                    "storeId": 410
+                },
+                {
+                    "storeId": 401
+                },
+                {
+                    "storeId": 403
+                },
+                {
+                    "storeId": 412
+                },
+                {
+                    "storeId": 949
+                },
+                {
+                    "storeId": 402
+                },
+                {
+                    "storeId": 449
+                },
+                {
+                    "storeId": 897
+                },
+                {
+                    "storeId": 417
+                },
+                {
+                    "storeId": 411
+                },
+                {
+                    "storeId": 405
+                },
+                {
+                    "storeId": 416
+                },
+                {
+                    "storeId": 803
+                },
+                {
+                    "storeId": 413
+                },
+                {
+                    "storeId": 840
+                },
+                {
+                    "storeId": 376
+                },
+                {
+                    "storeId": 476
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:12 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1943",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlNDkyMDIIP4AAACxzdG9yZV80NzZfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNjA1NDIIP4AAAC1zdG9yZV8xNzc4X3Vz",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.028",
+            "totalTime": "0.068",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlNDkyMDIIP4AAACxzdG9yZV80NzZfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 464
+                },
+                {
+                    "storeId": 883
+                },
+                {
+                    "storeId": 480
+                },
+                {
+                    "storeId": 409
+                },
+                {
+                    "storeId": 406
+                },
+                {
+                    "storeId": 500
+                },
+                {
+                    "storeId": 2515
+                },
+                {
+                    "storeId": 812
+                },
+                {
+                    "storeId": 1512
+                },
+                {
+                    "storeId": 16
+                },
+                {
+                    "storeId": 796
+                },
+                {
+                    "storeId": 604
+                },
+                {
+                    "storeId": 379
+                },
+                {
+                    "storeId": 792
+                },
+                {
+                    "storeId": 878
+                },
+                {
+                    "storeId": 21
+                },
+                {
+                    "storeId": 20
+                },
+                {
+                    "storeId": 22
+                },
+                {
+                    "storeId": 667
+                },
+                {
+                    "storeId": 1192
+                },
+                {
+                    "storeId": 1147
+                },
+                {
+                    "storeId": 44
+                },
+                {
+                    "storeId": 757
+                },
+                {
+                    "storeId": 1191
+                },
+                {
+                    "storeId": 1489
+                },
+                {
+                    "storeId": 654
+                },
+                {
+                    "storeId": 25
+                },
+                {
+                    "storeId": 26
+                },
+                {
+                    "storeId": 29
+                },
+                {
+                    "storeId": 892
+                },
+                {
+                    "storeId": 59
+                },
+                {
+                    "storeId": 208
+                },
+                {
+                    "storeId": 28
+                },
+                {
+                    "storeId": 399
+                },
+                {
+                    "storeId": 1052
+                },
+                {
+                    "storeId": 18
+                },
+                {
+                    "storeId": 40
+                },
+                {
+                    "storeId": 1890
+                },
+                {
+                    "storeId": 27
+                },
+                {
+                    "storeId": 1047
+                },
+                {
+                    "storeId": 6
+                },
+                {
+                    "storeId": 10
+                },
+                {
+                    "storeId": 7
+                },
+                {
+                    "storeId": 1055
+                },
+                {
+                    "storeId": 245
+                },
+                {
+                    "storeId": 15
+                },
+                {
+                    "storeId": 4
+                },
+                {
+                    "storeId": 8
+                },
+                {
+                    "storeId": 611
+                },
+                {
+                    "storeId": 1514
+                },
+                {
+                    "storeId": 329
+                },
+                {
+                    "storeId": 1463
+                },
+                {
+                    "storeId": 281
+                },
+                {
+                    "storeId": 1000
+                },
+                {
+                    "storeId": 11
+                },
+                {
+                    "storeId": 1443
+                },
+                {
+                    "storeId": 540
+                },
+                {
+                    "storeId": 43
+                },
+                {
+                    "storeId": 14
+                },
+                {
+                    "storeId": 330
+                },
+                {
+                    "storeId": 12
+                },
+                {
+                    "storeId": 522
+                },
+                {
+                    "storeId": 17
+                },
+                {
+                    "storeId": 861
+                },
+                {
+                    "storeId": 13
+                },
+                {
+                    "storeId": 337
+                },
+                {
+                    "storeId": 1012
+                },
+                {
+                    "storeId": 1063
+                },
+                {
+                    "storeId": 592
+                },
+                {
+                    "storeId": 593
+                },
+                {
+                    "storeId": 1016
+                },
+                {
+                    "storeId": 303
+                },
+                {
+                    "storeId": 315
+                },
+                {
+                    "storeId": 849
+                },
+                {
+                    "storeId": 647
+                },
+                {
+                    "storeId": 1166
+                },
+                {
+                    "storeId": 318
+                },
+                {
+                    "storeId": 1165
+                },
+                {
+                    "storeId": 302
+                },
+                {
+                    "storeId": 1169
+                },
+                {
+                    "storeId": 304
+                },
+                {
+                    "storeId": 893
+                },
+                {
+                    "storeId": 387
+                },
+                {
+                    "storeId": 322
+                },
+                {
+                    "storeId": 305
+                },
+                {
+                    "storeId": 607
+                },
+                {
+                    "storeId": 313
+                },
+                {
+                    "storeId": 306
+                },
+                {
+                    "storeId": 1048
+                },
+                {
+                    "storeId": 307
+                },
+                {
+                    "storeId": 312
+                },
+                {
+                    "storeId": 311
+                },
+                {
+                    "storeId": 308
+                },
+                {
+                    "storeId": 1066
+                },
+                {
+                    "storeId": 813
+                },
+                {
+                    "storeId": 310
+                },
+                {
+                    "storeId": 301
+                },
+                {
+                    "storeId": 316
+                },
+                {
+                    "storeId": 324
+                },
+                {
+                    "storeId": 1778
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:13 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1916",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlNjA1NDIIP4AAAC1zdG9yZV8xNzc4X3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNzUwNzAIP4AAACxzdG9yZV8xOTZfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.009",
+            "totalTime": "0.046",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlNjA1NDIIP4AAAC1zdG9yZV8xNzc4X3Vz&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 1170
+                },
+                {
+                    "storeId": 320
+                },
+                {
+                    "storeId": 1142
+                },
+                {
+                    "storeId": 1381
+                },
+                {
+                    "storeId": 814
+                },
+                {
+                    "storeId": 1777
+                },
+                {
+                    "storeId": 323
+                },
+                {
+                    "storeId": 319
+                },
+                {
+                    "storeId": 1123
+                },
+                {
+                    "storeId": 45
+                },
+                {
+                    "storeId": 23
+                },
+                {
+                    "storeId": 207
+                },
+                {
+                    "storeId": 49
+                },
+                {
+                    "storeId": 46
+                },
+                {
+                    "storeId": 1426
+                },
+                {
+                    "storeId": 31
+                },
+                {
+                    "storeId": 1073
+                },
+                {
+                    "storeId": 606
+                },
+                {
+                    "storeId": 47
+                },
+                {
+                    "storeId": 492
+                },
+                {
+                    "storeId": 143
+                },
+                {
+                    "storeId": 1897
+                },
+                {
+                    "storeId": 942
+                },
+                {
+                    "storeId": 34
+                },
+                {
+                    "storeId": 30
+                },
+                {
+                    "storeId": 833
+                },
+                {
+                    "storeId": 32
+                },
+                {
+                    "storeId": 1434
+                },
+                {
+                    "storeId": 523
+                },
+                {
+                    "storeId": 36
+                },
+                {
+                    "storeId": 370
+                },
+                {
+                    "storeId": 1501
+                },
+                {
+                    "storeId": 768
+                },
+                {
+                    "storeId": 613
+                },
+                {
+                    "storeId": 346
+                },
+                {
+                    "storeId": 1102
+                },
+                {
+                    "storeId": 602
+                },
+                {
+                    "storeId": 1793
+                },
+                {
+                    "storeId": 52
+                },
+                {
+                    "storeId": 837
+                },
+                {
+                    "storeId": 193
+                },
+                {
+                    "storeId": 277
+                },
+                {
+                    "storeId": 39
+                },
+                {
+                    "storeId": 1101
+                },
+                {
+                    "storeId": 48
+                },
+                {
+                    "storeId": 1513
+                },
+                {
+                    "storeId": 51
+                },
+                {
+                    "storeId": 224
+                },
+                {
+                    "storeId": 1093
+                },
+                {
+                    "storeId": 206
+                },
+                {
+                    "storeId": 240
+                },
+                {
+                    "storeId": 50
+                },
+                {
+                    "storeId": 1034
+                },
+                {
+                    "storeId": 1542
+                },
+                {
+                    "storeId": 572
+                },
+                {
+                    "storeId": 373
+                },
+                {
+                    "storeId": 1456
+                },
+                {
+                    "storeId": 943
+                },
+                {
+                    "storeId": 1388
+                },
+                {
+                    "storeId": 612
+                },
+                {
+                    "storeId": 380
+                },
+                {
+                    "storeId": 347
+                },
+                {
+                    "storeId": 1080
+                },
+                {
+                    "storeId": 1157
+                },
+                {
+                    "storeId": 495
+                },
+                {
+                    "storeId": 363
+                },
+                {
+                    "storeId": 1462
+                },
+                {
+                    "storeId": 1507
+                },
+                {
+                    "storeId": 2507
+                },
+                {
+                    "storeId": 1800
+                },
+                {
+                    "storeId": 1797
+                },
+                {
+                    "storeId": 1438
+                },
+                {
+                    "storeId": 222
+                },
+                {
+                    "storeId": 275
+                },
+                {
+                    "storeId": 1536
+                },
+                {
+                    "storeId": 351
+                },
+                {
+                    "storeId": 1148
+                },
+                {
+                    "storeId": 248
+                },
+                {
+                    "storeId": 875
+                },
+                {
+                    "storeId": 1427
+                },
+                {
+                    "storeId": 220
+                },
+                {
+                    "storeId": 1419
+                },
+                {
+                    "storeId": 646
+                },
+                {
+                    "storeId": 219
+                },
+                {
+                    "storeId": 1787
+                },
+                {
+                    "storeId": 1401
+                },
+                {
+                    "storeId": 2503
+                },
+                {
+                    "storeId": 1499
+                },
+                {
+                    "storeId": 221
+                },
+                {
+                    "storeId": 762
+                },
+                {
+                    "storeId": 2511
+                },
+                {
+                    "storeId": 1780
+                },
+                {
+                    "storeId": 1038
+                },
+                {
+                    "storeId": 1773
+                },
+                {
+                    "storeId": 180
+                },
+                {
+                    "storeId": 1412
+                },
+                {
+                    "storeId": 205
+                },
+                {
+                    "storeId": 1032
+                },
+                {
+                    "storeId": 258
+                },
+                {
+                    "storeId": 196
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:18:05 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1948",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlNzUwNzAIP4AAACxzdG9yZV8xOTZfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlODAxMjMIP4AAACxzdG9yZV8yMTBfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.025",
+            "totalTime": "0.071",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlNzUwNzAIP4AAACxzdG9yZV8xOTZfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 202
+                },
+                {
+                    "storeId": 1417
+                },
+                {
+                    "storeId": 1023
+                },
+                {
+                    "storeId": 56
+                },
+                {
+                    "storeId": 54
+                },
+                {
+                    "storeId": 1889
+                },
+                {
+                    "storeId": 58
+                },
+                {
+                    "storeId": 256
+                },
+                {
+                    "storeId": 2504
+                },
+                {
+                    "storeId": 605
+                },
+                {
+                    "storeId": 594
+                },
+                {
+                    "storeId": 246
+                },
+                {
+                    "storeId": 867
+                },
+                {
+                    "storeId": 57
+                },
+                {
+                    "storeId": 665
+                },
+                {
+                    "storeId": 148
+                },
+                {
+                    "storeId": 55
+                },
+                {
+                    "storeId": 1035
+                },
+                {
+                    "storeId": 1024
+                },
+                {
+                    "storeId": 234
+                },
+                {
+                    "storeId": 176
+                },
+                {
+                    "storeId": 1027
+                },
+                {
+                    "storeId": 1494
+                },
+                {
+                    "storeId": 827
+                },
+                {
+                    "storeId": 195
+                },
+                {
+                    "storeId": 1457
+                },
+                {
+                    "storeId": 182
+                },
+                {
+                    "storeId": 244
+                },
+                {
+                    "storeId": 1017
+                },
+                {
+                    "storeId": 213
+                },
+                {
+                    "storeId": 215
+                },
+                {
+                    "storeId": 1160
+                },
+                {
+                    "storeId": 1768
+                },
+                {
+                    "storeId": 216
+                },
+                {
+                    "storeId": 291
+                },
+                {
+                    "storeId": 214
+                },
+                {
+                    "storeId": 239
+                },
+                {
+                    "storeId": 233
+                },
+                {
+                    "storeId": 876
+                },
+                {
+                    "storeId": 2510
+                },
+                {
+                    "storeId": 865
+                },
+                {
+                    "storeId": 255
+                },
+                {
+                    "storeId": 1397
+                },
+                {
+                    "storeId": 167
+                },
+                {
+                    "storeId": 1072
+                },
+                {
+                    "storeId": 1517
+                },
+                {
+                    "storeId": 1413
+                },
+                {
+                    "storeId": 354
+                },
+                {
+                    "storeId": 1404
+                },
+                {
+                    "storeId": 199
+                },
+                {
+                    "storeId": 357
+                },
+                {
+                    "storeId": 952
+                },
+                {
+                    "storeId": 1458
+                },
+                {
+                    "storeId": 1469
+                },
+                {
+                    "storeId": 948
+                },
+                {
+                    "storeId": 242
+                },
+                {
+                    "storeId": 1545
+                },
+                {
+                    "storeId": 238
+                },
+                {
+                    "storeId": 332
+                },
+                {
+                    "storeId": 603
+                },
+                {
+                    "storeId": 1888
+                },
+                {
+                    "storeId": 241
+                },
+                {
+                    "storeId": 1387
+                },
+                {
+                    "storeId": 181
+                },
+                {
+                    "storeId": 201
+                },
+                {
+                    "storeId": 1081
+                },
+                {
+                    "storeId": 1082
+                },
+                {
+                    "storeId": 152
+                },
+                {
+                    "storeId": 1459
+                },
+                {
+                    "storeId": 864
+                },
+                {
+                    "storeId": 235
+                },
+                {
+                    "storeId": 1784
+                },
+                {
+                    "storeId": 236
+                },
+                {
+                    "storeId": 1473
+                },
+                {
+                    "storeId": 353
+                },
+                {
+                    "storeId": 1516
+                },
+                {
+                    "storeId": 178
+                },
+                {
+                    "storeId": 691
+                },
+                {
+                    "storeId": 1762
+                },
+                {
+                    "storeId": 859
+                },
+                {
+                    "storeId": 828
+                },
+                {
+                    "storeId": 1153
+                },
+                {
+                    "storeId": 204
+                },
+                {
+                    "storeId": 1083
+                },
+                {
+                    "storeId": 2516
+                },
+                {
+                    "storeId": 203
+                },
+                {
+                    "storeId": 218
+                },
+                {
+                    "storeId": 226
+                },
+                {
+                    "storeId": 940
+                },
+                {
+                    "storeId": 280
+                },
+                {
+                    "storeId": 1526
+                },
+                {
+                    "storeId": 829
+                },
+                {
+                    "storeId": 237
+                },
+                {
+                    "storeId": 1470
+                },
+                {
+                    "storeId": 1134
+                },
+                {
+                    "storeId": 217
+                },
+                {
+                    "storeId": 694
+                },
+                {
+                    "storeId": 209
+                },
+                {
+                    "storeId": 1171
+                },
+                {
+                    "storeId": 210
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:13 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1954",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlODAxMjMIP4AAACxzdG9yZV8yMTBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlOTE3OTAIP4AAACxzdG9yZV8xMDJfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.007",
+            "totalTime": "0.043",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlODAxMjMIP4AAACxzdG9yZV8yMTBfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 164
+                },
+                {
+                    "storeId": 1410
+                },
+                {
+                    "storeId": 211
+                },
+                {
+                    "storeId": 1224
+                },
+                {
+                    "storeId": 1416
+                },
+                {
+                    "storeId": 1031
+                },
+                {
+                    "storeId": 382
+                },
+                {
+                    "storeId": 1079
+                },
+                {
+                    "storeId": 225
+                },
+                {
+                    "storeId": 693
+                },
+                {
+                    "storeId": 1194
+                },
+                {
+                    "storeId": 298
+                },
+                {
+                    "storeId": 212
+                },
+                {
+                    "storeId": 1030
+                },
+                {
+                    "storeId": 1124
+                },
+                {
+                    "storeId": 1527
+                },
+                {
+                    "storeId": 874
+                },
+                {
+                    "storeId": 944
+                },
+                {
+                    "storeId": 1078
+                },
+                {
+                    "storeId": 526
+                },
+                {
+                    "storeId": 655
+                },
+                {
+                    "storeId": 1402
+                },
+                {
+                    "storeId": 773
+                },
+                {
+                    "storeId": 497
+                },
+                {
+                    "storeId": 1146
+                },
+                {
+                    "storeId": 1761
+                },
+                {
+                    "storeId": 521
+                },
+                {
+                    "storeId": 527
+                },
+                {
+                    "storeId": 945
+                },
+                {
+                    "storeId": 496
+                },
+                {
+                    "storeId": 891
+                },
+                {
+                    "storeId": 253
+                },
+                {
+                    "storeId": 250
+                },
+                {
+                    "storeId": 177
+                },
+                {
+                    "storeId": 249
+                },
+                {
+                    "storeId": 1481
+                },
+                {
+                    "storeId": 254
+                },
+                {
+                    "storeId": 869
+                },
+                {
+                    "storeId": 870
+                },
+                {
+                    "storeId": 1002
+                },
+                {
+                    "storeId": 1189
+                },
+                {
+                    "storeId": 251
+                },
+                {
+                    "storeId": 895
+                },
+                {
+                    "storeId": 787
+                },
+                {
+                    "storeId": 1109
+                },
+                {
+                    "storeId": 485
+                },
+                {
+                    "storeId": 1077
+                },
+                {
+                    "storeId": 123
+                },
+                {
+                    "storeId": 1112
+                },
+                {
+                    "storeId": 198
+                },
+                {
+                    "storeId": 1143
+                },
+                {
+                    "storeId": 1084
+                },
+                {
+                    "storeId": 377
+                },
+                {
+                    "storeId": 338
+                },
+                {
+                    "storeId": 223
+                },
+                {
+                    "storeId": 866
+                },
+                {
+                    "storeId": 375
+                },
+                {
+                    "storeId": 802
+                },
+                {
+                    "storeId": 358
+                },
+                {
+                    "storeId": 122
+                },
+                {
+                    "storeId": 1044
+                },
+                {
+                    "storeId": 289
+                },
+                {
+                    "storeId": 1421
+                },
+                {
+                    "storeId": 542
+                },
+                {
+                    "storeId": 1783
+                },
+                {
+                    "storeId": 1014
+                },
+                {
+                    "storeId": 128
+                },
+                {
+                    "storeId": 850
+                },
+                {
+                    "storeId": 393
+                },
+                {
+                    "storeId": 183
+                },
+                {
+                    "storeId": 109
+                },
+                {
+                    "storeId": 1432
+                },
+                {
+                    "storeId": 1510
+                },
+                {
+                    "storeId": 179
+                },
+                {
+                    "storeId": 872
+                },
+                {
+                    "storeId": 1011
+                },
+                {
+                    "storeId": 104
+                },
+                {
+                    "storeId": 107
+                },
+                {
+                    "storeId": 1537
+                },
+                {
+                    "storeId": 117
+                },
+                {
+                    "storeId": 127
+                },
+                {
+                    "storeId": 1119
+                },
+                {
+                    "storeId": 1009
+                },
+                {
+                    "storeId": 1782
+                },
+                {
+                    "storeId": 125
+                },
+                {
+                    "storeId": 116
+                },
+                {
+                    "storeId": 1180
+                },
+                {
+                    "storeId": 130
+                },
+                {
+                    "storeId": 1511
+                },
+                {
+                    "storeId": 113
+                },
+                {
+                    "storeId": 112
+                },
+                {
+                    "storeId": 764
+                },
+                {
+                    "storeId": 137
+                },
+                {
+                    "storeId": 846
+                },
+                {
+                    "storeId": 105
+                },
+                {
+                    "storeId": 1018
+                },
+                {
+                    "storeId": 103
+                },
+                {
+                    "storeId": 775
+                },
+                {
+                    "storeId": 131
+                },
+                {
+                    "storeId": 102
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:13 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1957",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlOTE3OTAIP4AAACxzdG9yZV8xMDJfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlOTc3MDEIP4AAACxzdG9yZV84NjNfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.007",
+            "totalTime": "0.057",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlOTE3OTAIP4AAACxzdG9yZV8xMDJfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 188
+                },
+                {
+                    "storeId": 1769
+                },
+                {
+                    "storeId": 1386
+                },
+                {
+                    "storeId": 184
+                },
+                {
+                    "storeId": 1187
+                },
+                {
+                    "storeId": 2505
+                },
+                {
+                    "storeId": 437
+                },
+                {
+                    "storeId": 1145
+                },
+                {
+                    "storeId": 871
+                },
+                {
+                    "storeId": 438
+                },
+                {
+                    "storeId": 352
+                },
+                {
+                    "storeId": 1533
+                },
+                {
+                    "storeId": 1441
+                },
+                {
+                    "storeId": 1113
+                },
+                {
+                    "storeId": 1020
+                },
+                {
+                    "storeId": 124
+                },
+                {
+                    "storeId": 1482
+                },
+                {
+                    "storeId": 108
+                },
+                {
+                    "storeId": 150
+                },
+                {
+                    "storeId": 110
+                },
+                {
+                    "storeId": 392
+                },
+                {
+                    "storeId": 115
+                },
+                {
+                    "storeId": 1409
+                },
+                {
+                    "storeId": 1076
+                },
+                {
+                    "storeId": 854
+                },
+                {
+                    "storeId": 119
+                },
+                {
+                    "storeId": 111
+                },
+                {
+                    "storeId": 101
+                },
+                {
+                    "storeId": 774
+                },
+                {
+                    "storeId": 2514
+                },
+                {
+                    "storeId": 114
+                },
+                {
+                    "storeId": 1198
+                },
+                {
+                    "storeId": 947
+                },
+                {
+                    "storeId": 847
+                },
+                {
+                    "storeId": 126
+                },
+                {
+                    "storeId": 118
+                },
+                {
+                    "storeId": 649
+                },
+                {
+                    "storeId": 1391
+                },
+                {
+                    "storeId": 529
+                },
+                {
+                    "storeId": 856
+                },
+                {
+                    "storeId": 396
+                },
+                {
+                    "storeId": 192
+                },
+                {
+                    "storeId": 106
+                },
+                {
+                    "storeId": 1188
+                },
+                {
+                    "storeId": 121
+                },
+                {
+                    "storeId": 1019
+                },
+                {
+                    "storeId": 1061
+                },
+                {
+                    "storeId": 873
+                },
+                {
+                    "storeId": 685
+                },
+                {
+                    "storeId": 1045
+                },
+                {
+                    "storeId": 1896
+                },
+                {
+                    "storeId": 140
+                },
+                {
+                    "storeId": 187
+                },
+                {
+                    "storeId": 1125
+                },
+                {
+                    "storeId": 1046
+                },
+                {
+                    "storeId": 135
+                },
+                {
+                    "storeId": 136
+                },
+                {
+                    "storeId": 138
+                },
+                {
+                    "storeId": 134
+                },
+                {
+                    "storeId": 144
+                },
+                {
+                    "storeId": 1128
+                },
+                {
+                    "storeId": 499
+                },
+                {
+                    "storeId": 1021
+                },
+                {
+                    "storeId": 884
+                },
+                {
+                    "storeId": 142
+                },
+                {
+                    "storeId": 797
+                },
+                {
+                    "storeId": 190
+                },
+                {
+                    "storeId": 1423
+                },
+                {
+                    "storeId": 851
+                },
+                {
+                    "storeId": 528
+                },
+                {
+                    "storeId": 391
+                },
+                {
+                    "storeId": 844
+                },
+                {
+                    "storeId": 141
+                },
+                {
+                    "storeId": 1509
+                },
+                {
+                    "storeId": 120
+                },
+                {
+                    "storeId": 1190
+                },
+                {
+                    "storeId": 364
+                },
+                {
+                    "storeId": 845
+                },
+                {
+                    "storeId": 129
+                },
+                {
+                    "storeId": 1008
+                },
+                {
+                    "storeId": 349
+                },
+                {
+                    "storeId": 1396
+                },
+                {
+                    "storeId": 133
+                },
+                {
+                    "storeId": 660
+                },
+                {
+                    "storeId": 191
+                },
+                {
+                    "storeId": 838
+                },
+                {
+                    "storeId": 852
+                },
+                {
+                    "storeId": 763
+                },
+                {
+                    "storeId": 451
+                },
+                {
+                    "storeId": 1491
+                },
+                {
+                    "storeId": 1454
+                },
+                {
+                    "storeId": 1058
+                },
+                {
+                    "storeId": 1422
+                },
+                {
+                    "storeId": 452
+                },
+                {
+                    "storeId": 1104
+                },
+                {
+                    "storeId": 450
+                },
+                {
+                    "storeId": 453
+                },
+                {
+                    "storeId": 600
+                },
+                {
+                    "storeId": 2517
+                },
+                {
+                    "storeId": 863
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:16:27 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1957",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlOTc3MDEIP4AAACxzdG9yZV84NjNfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlOTk1MTUIP4AAACxzdG9yZV81MzlfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.007",
+            "totalTime": "0.023",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlOTc3MDEIP4AAACxzdG9yZV84NjNfdXM=&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 372
+                },
+                {
+                    "storeId": 498
+                },
+                {
+                    "storeId": 1220
+                },
+                {
+                    "storeId": 477
+                },
+                {
+                    "storeId": 470
+                },
+                {
+                    "storeId": 447
+                },
+                {
+                    "storeId": 566
+                },
+                {
+                    "storeId": 359
+                },
+                {
+                    "storeId": 798
+                },
+                {
+                    "storeId": 1415
+                },
+                {
+                    "storeId": 366
+                },
+                {
+                    "storeId": 398
+                },
+                {
+                    "storeId": 830
+                },
+                {
+                    "storeId": 839
+                },
+                {
+                    "storeId": 1043
+                },
+                {
+                    "storeId": 831
+                },
+                {
+                    "storeId": 355
+                },
+                {
+                    "storeId": 362
+                },
+                {
+                    "storeId": 590
+                },
+                {
+                    "storeId": 1760
+                },
+                {
+                    "storeId": 539
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:13:13 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "662",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(storeType=Big%20Box)?format=json&apiKey=XXX&show=storeId&cursorMark=AoMlOTk1MTUIP4AAACxzdG9yZV81MzlfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlOTk1MTUIP4AAACxzdG9yZV81MzlfdXM=",
+            "total": 1021,
+            "totalPages": 11,
+            "queryTime": "0.021",
+            "totalTime": "0.022",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(storeType=\"Big Box\")?show=storeId&pageSize=100&cursorMark=AoMlOTk1MTUIP4AAACxzdG9yZV81MzlfdXM=&format=json&apiKey=XXX",
+            "stores": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 22:16:27 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "323",
+            "Connection",
+            "Close"
+        ]
+    }
+]

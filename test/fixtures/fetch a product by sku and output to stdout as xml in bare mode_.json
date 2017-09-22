@@ -1,0 +1,62 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku%20in%20(5919905,5670100))?format=xml&apiKey=XXX&show=name&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<products nextCursorMark=\"AoIIP4AAADJwcm9kdWN0XzU5MTk5MDVfdXM=\" totalPages=\"1\" total=\"2\" queryTime=\"0.046\" totalTime=\"0.057\" canonicalUrl=\"/v1/products(sku in(5919905,5670100))?show=name&amp;pageSize=100&amp;cursorMark=*&amp;apiKey=XXX\" partial=\"false\">\n  <product>\n    <name>Nintendo - Switch™ 32GB Console - Neon Red/Neon Blue Joy-Con™</name>\n  </product>\n  <product>\n    <name>Nintendo - Switch™ 32GB Super Mario Odyssey Edition Bundle - Red Joy-Con</name>\n  </product>\n</products>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:54:44 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "624",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku%20in%20(5919905,5670100))?format=xml&apiKey=XXX&show=name&cursorMark=AoIIP4AAADJwcm9kdWN0XzU5MTk5MDVfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<products nextCursorMark=\"AoIIP4AAADJwcm9kdWN0XzU5MTk5MDVfdXM=\" totalPages=\"1\" total=\"2\" queryTime=\"0.014\" totalTime=\"0.015\" canonicalUrl=\"/v1/products(sku in(5919905,5670100))?show=name&amp;pageSize=100&amp;cursorMark=AoIIP4AAADJwcm9kdWN0XzU5MTk5MDVfdXM=&amp;apiKey=XXX\" partial=\"false\"/>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Fri, 22 Sep 2017 21:57:57 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "423",
+            "Connection",
+            "Close"
+        ]
+    }
+]
