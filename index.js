@@ -32,15 +32,21 @@ function run (opts, stdout, cb) {
   dataStream.on('data', () => cnt++)
 
   if (opts.format.toLowerCase() === 'json') {
-    parser = JSONStream.stringify()
+    parser = opts.bare ? JSONStream.stringify(false) : JSONStream.stringify()
   } else if (opts.format.toLowerCase() === 'xml') {
     parser = through(
-      function (chunk, enc, cb) { cb(null, chunk) }, // transform is a noop
+      function (chunk, enc, cb) {
+        if (opts.bare) {
+          chunk = chunk.toString().replace(/\n/g, '') + '\n'
+        }
+        cb(null, chunk)
+      }, // transform is a noop
       function (cb) { // flush function
-        this.push(`\n</${opts.resource}>`) // add end tag
+        if (!opts.bare) this.push(`\n</${opts.resource}>`) // add end tag
         cb()
       }
     )
+    if (!opts.bare) parser.write(`<${opts.resource}>\n`)
   } else {
     throw new Error(`unsupported format: ${opts.format}`)
   }

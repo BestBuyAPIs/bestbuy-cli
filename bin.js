@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const BBY_API_KEY_MSG = 'BBY_API_KEY environment variable'
-const RESOURCES = ['products', 'categories', 'stores', 'availability']
+const RESOURCES = ['products', 'categories', 'stores']
 
 const run = require('.')
 
@@ -31,7 +31,13 @@ function cli (args, stream, cb) {
     {
       name: 'output',
       abbr: 'o',
-      help: 'name of file to send output'
+      help: 'name of file to send output (optional; If not present, out will go to stdout)'
+    },
+    {
+      name: 'bare',
+      abbr: 'b',
+      help: 'newline delimited - each item on own line without extra cruft',
+      default: false
     },
     {
       name: 'version',
