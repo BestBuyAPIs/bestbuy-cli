@@ -31,7 +31,7 @@ function cli (args, stream, cb) {
     {
       name: 'output',
       abbr: 'o',
-      help: 'name of file to send output'
+      help: 'name of file to send output (optional; If not present, out will go to stdout)'
     },
     {
       name: 'bare',
