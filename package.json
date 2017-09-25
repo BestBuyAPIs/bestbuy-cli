@@ -54,6 +54,6 @@
   },
   "scripts": {
     "test": "standard && tape test/*.test.js | tap-spec",
-    "release": "pkg . --out-path dist && gh-release --dry-run --assets dist/bestbuy-cli-linux,dist/bestbuy-cli-macos,dist/bestbuy-cli-win.exe"
+    "release": "pkg . --out-path dist && gh-release --assets dist/bestbuy-cli-linux,dist/bestbuy-cli-macos,dist/bestbuy-cli-win.exe"
   }
 }
