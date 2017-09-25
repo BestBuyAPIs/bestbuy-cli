@@ -16,7 +16,8 @@
     "pretty-ms": "^3.0.0",
     "pump": "^1.0.2",
     "stdout-stream": "^1.4.0",
-    "through2": "^2.0.3"
+    "through2": "^2.0.3",
+    "update-notifier": "^2.2.0"
   },
   "devDependencies": {
     "concat-stream": "^1.6.0",

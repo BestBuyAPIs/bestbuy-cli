@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 const BBY_API_KEY_MSG = 'BBY_API_KEY environment variable'
 const RESOURCES = ['products', 'categories', 'stores']
+const pkg = require('./package')
+const updateNotifier = require('update-notifier')
 
 const run = require('.')
 
@@ -67,7 +69,7 @@ function cli (args, stream, cb) {
   argv.resource = argv.resource || argv._[0]
 
   if (argv.version) {
-    stream.write(require('./package').version + '\n')
+    stream.write(pkg.version + '\n')
     return cb()
   }
 
@@ -104,11 +106,13 @@ Usage: bestbuy [resource] [options]
 
 if (require.main === module) {
   cli(process.argv.slice(2), process.stdout, function done (err) {
+    var code = 0
     if (err) {
       console.error(err.message)
-      process.exit(-1)
+      code = -1
     }
-    process.exit(0)
+    updateNotifier({pkg: pkg}).notify()
+    process.exit(code)
   })
 } else {
   module.exports = cli

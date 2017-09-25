@@ -7,3 +7,4 @@ cache:
     - node_modules
 env:
   - BBY_API_KEY=XXX
+  - NO_UPDATE_NOTIFIER=1
