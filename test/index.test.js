@@ -43,7 +43,7 @@ test('-v flag prints the version', function (t) {
 test('no arguments shows the help screen', function (t) {
   bestbuy('', function (err, output) {
     t.error(err, 'no error')
-    t.ok(output.startsWith('\nBest Buy Bulk Download Tool\n\nUsage: bestbuy'), 'help message shown')
+    t.ok(output.startsWith('\nBest Buy Bulk Download Tool'), 'help message shown')
     t.end()
   })
 })
@@ -51,7 +51,7 @@ test('no arguments shows the help screen', function (t) {
 test('--help shows the help screen', function (t) {
   bestbuy('--help', function (err, output) {
     t.error(err, 'no error')
-    t.ok(output.startsWith('\nBest Buy Bulk Download Tool\n\nUsage: bestbuy'), 'help message shown')
+    t.ok(output.startsWith('\nBest Buy Bulk Download Tool'), 'help message shown')
     t.end()
   })
 })
@@ -59,7 +59,7 @@ test('--help shows the help screen', function (t) {
 test('--h shows the help screen', function (t) {
   bestbuy('-h', function (err, output) {
     t.error(err, 'no error')
-    t.ok(output.startsWith('\nBest Buy Bulk Download Tool\n\nUsage: bestbuy'), 'help message shown')
+    t.ok(output.startsWith('\nBest Buy Bulk Download Tool'), 'help message shown')
     t.end()
   })
 })

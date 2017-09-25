@@ -11,8 +11,9 @@
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: http://npm.im/standard
 
+Download data from the Best Buy Catalog API in bulk from the command line.
 
-Download data from the Best Buy Catalog API in bulk from the command line
+Get an API key at [developer.bestbuy.com](https://developer.bestbuy.com).
 
 ![Best Buy CLI Tool](https://cdn.rawgit.com/BestBuyAPIs/bestbuy-cli/master/images/download-all-stores.gif)
 
@@ -27,8 +28,7 @@ npm install --global bestbuy-cli
 ```bash
 >bestbuy --help
 
-
-Best Buy Bulk Download Tool
+Best Buy Bulk Download Tool (https://github.com/BestBuyAPIs/bestbuy-cli)
 
 Usage: bestbuy [resource] [options]
 
@@ -42,14 +42,14 @@ Usage: bestbuy [resource] [options]
     --show, -s            fields to show
     --sort, -r            sort results by fields (comma separated)
     --key, -k             Best Buy API key (default: "BBY_API_KEY environment variable")
-    --format, -f          format of the response as json, xml, csv, or tsv (default: "json")
+    --format, -f          format of the response as json, xml, csv or tsv (default: "json")
     --output, -o          name of file to send output (optional; If not present, out will go to stdout)
     --bare, -b            newline delimited - each item on own line without extra cruft (default: false)
     --version, -v         show version information
     --help, -h            show help
 
-Visit https://developer.bestbuy.com/documentation for more details on writing custom queries.
 ```
+Visit the [Best Buy API Documentation](https://developer.bestbuy.com/documentation) for more details on writing custom queries.
 
 ## License
 

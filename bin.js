@@ -75,7 +75,7 @@ function cli (args, stream, cb) {
 
   if (argv.help) {
     stream.write(`
-Best Buy Bulk Download Tool
+Best Buy Bulk Download Tool (https://github.com/BestBuyAPIs/bestbuy-cli)
 
 Usage: bestbuy [resource] [options]
 
