@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "concat-stream": "^1.6.0",
+    "gh-release": "^3.1.1",
+    "pkg": "^4.2.4",
     "rimraf": "^2.6.2",
     "standard": "*",
     "tap-spec": "^4.0.2",
@@ -51,6 +53,7 @@
     "url": "https://github.com/BestBuyAPIs/bestbuy-cli.git"
   },
   "scripts": {
-    "test": "standard && tape test/*.test.js | tap-spec"
+    "test": "standard && tape test/*.test.js | tap-spec",
+    "release": "pkg . --out-path dist && gh-release --dry-run --assets dist/bestbuy-cli-linux,dist/bestbuy-cli-macos,dist/bestbuy-cli-win.exe"
   }
 }
