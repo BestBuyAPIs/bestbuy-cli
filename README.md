@@ -53,4 +53,4 @@ Visit the [Best Buy API Documentation](https://developer.bestbuy.com/documentati
 
 ## License
 
-[ISC](LICENSE.md)
+[MIT](LICENSE.md)
