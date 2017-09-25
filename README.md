@@ -40,6 +40,7 @@ Usage: bestbuy [resource] [options]
     resource              resource to download: products, categories, stores
     --query, -q           use a custom query to filter the results
     --show, -s            fields to show
+    --sort, -r            sort results by fields (comma separated)
     --key, -k             Best Buy API key (default: "BBY_API_KEY environment variable")
     --format, -f          format of the response as json or xml (default: "json")
     --output, -o          name of file to send output (optional; If not present, out will go to stdout)

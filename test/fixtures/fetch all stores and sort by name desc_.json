@@ -1,0 +1,147 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(region=MN&storeType=Big%20Box)?format=json&apiKey=XXX&show=name&sort=name.desc&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoQvYXBwbGUgdmFsbGV5IG1uJTU1MTI0CD+AAAAsc3RvcmVfMjQ1X3Vz",
+            "total": 22,
+            "totalPages": 1,
+            "queryTime": "0.034",
+            "totalTime": "0.051",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(region=\"MN\"&storeType=\"Big Box\")?show=name&sort=name.desc&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "name": "ST CLOUD MN"
+                },
+                {
+                    "name": "SHAKOPEE MN"
+                },
+                {
+                    "name": "ROSEVILLE MN"
+                },
+                {
+                    "name": "ROCHESTER MN"
+                },
+                {
+                    "name": "RICHFIELD MN"
+                },
+                {
+                    "name": "OAKDALE MN"
+                },
+                {
+                    "name": "NORTHTOWN MN"
+                },
+                {
+                    "name": "MINNETONKA MN"
+                },
+                {
+                    "name": "MAPLEWOOD MN"
+                },
+                {
+                    "name": "MAPLE GROVE MN"
+                },
+                {
+                    "name": "MANKATO MN"
+                },
+                {
+                    "name": "MALL OF AMERICA MN"
+                },
+                {
+                    "name": "INVER GROVE HGTS MN"
+                },
+                {
+                    "name": "HUTCHINSON MN"
+                },
+                {
+                    "name": "EDEN PRAIRIE MN"
+                },
+                {
+                    "name": "EAGAN MN"
+                },
+                {
+                    "name": "DULUTH MN"
+                },
+                {
+                    "name": "COON RAPIDS MN"
+                },
+                {
+                    "name": "BURNSVILLE MN"
+                },
+                {
+                    "name": "BLAINE MN"
+                },
+                {
+                    "name": "BAXTER MN"
+                },
+                {
+                    "name": "APPLE VALLEY MN"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Mon, 25 Sep 2017 16:25:21 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "865",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(region=MN&storeType=Big%20Box)?format=json&apiKey=XXX&show=name&sort=name.desc&cursorMark=AoQvYXBwbGUgdmFsbGV5IG1uJTU1MTI0CD%2BAAAAsc3RvcmVfMjQ1X3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoQvYXBwbGUgdmFsbGV5IG1uJTU1MTI0CD+AAAAsc3RvcmVfMjQ1X3Vz",
+            "total": 22,
+            "totalPages": 1,
+            "queryTime": "0.024",
+            "totalTime": "0.024",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(region=\"MN\"&storeType=\"Big Box\")?show=name&sort=name.desc&pageSize=100&cursorMark=AoQvYXBwbGUgdmFsbGV5IG1uJTU1MTI0CD+AAAAsc3RvcmVfMjQ1X3Vz&format=json&apiKey=XXX",
+            "stores": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Mon, 25 Sep 2017 16:20:25 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "386",
+            "Connection",
+            "Close"
+        ]
+    }
+]

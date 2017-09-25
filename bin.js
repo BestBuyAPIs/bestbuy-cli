@@ -17,6 +17,11 @@ function cli (args, stream, cb) {
       help: 'fields to show'
     },
     {
+      name: 'sort',
+      abbr: 'r',
+      help: 'sort results by fields (comma separated)'
+    },
+    {
       name: 'key',
       abbr: 'k',
       help: 'Best Buy API key',

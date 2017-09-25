@@ -168,3 +168,21 @@ test('fetch all stores', function (t) {
     t.end()
   })
 })
+
+test('fetch stores and sort by name', function (t) {
+  bestbuy('stores -q "region=MN&storeType=Big Box" --show name --sort name', function (err, output) {
+    t.error(err, 'no error')
+    var stores = JSON.parse(output)
+    stores.forEach((s, i) => i + 1 < stores.length && t.ok(s.name <= stores[i + 1].name, `${s.name} < ${stores[i + 1].name}`))
+    t.end()
+  })
+})
+
+test('fetch all stores and sort by name desc', function (t) {
+  bestbuy('stores -q "region=MN&storeType=Big Box" --show name --sort "name.desc"', function (err, output) {
+    t.error(err, 'no error')
+    var stores = JSON.parse(output)
+    stores.forEach((s, i) => i + 1 < stores.length && t.ok(s.name >= stores[i + 1].name, `${s.name} < ${stores[i + 1].name}`))
+    t.end()
+  })
+})
