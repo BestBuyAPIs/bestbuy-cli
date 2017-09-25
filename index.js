@@ -21,7 +21,8 @@ function run (opts, stdout, cb) {
 
   var dataStream = bby[`${opts.resource}AsStream`](opts.query, {
     format: opts.format,
-    show: opts.show
+    show: opts.show,
+    sort: opts.sort
   })
 
 // a "total" event is emitted so we know how many total products will be sent
