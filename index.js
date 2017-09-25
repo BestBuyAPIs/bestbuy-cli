@@ -23,7 +23,7 @@ function run (opts, stdout, cb) {
   opts.format = opts.format.toLowerCase()
 
   var dataStream = bby[`${opts.resource}AsStream`](opts.query, {
-    format: opts.format === 'csv' ? 'json' : opts.format,
+    format: opts.format === 'csv' || opts.format === 'tsv' ? 'json' : opts.format,
     show: opts.show,
     sort: opts.sort
   })
@@ -37,10 +37,11 @@ function run (opts, stdout, cb) {
 
   if (opts.format === 'json') {
     parser = opts.bare ? JSONStream.stringify(false) : JSONStream.stringify()
-  } else if (opts.format === 'csv') {
+  } else if (opts.format === 'csv' || opts.format === 'tsv') {
     var csvStream = csv.createWriteStream({
       headers: !opts.bare,
-      objectMode: false
+      objectMode: false,
+      delimiter: opts.format === 'tsv' ? '\t' : ','
     })
     parser = csvStream
   } else if (opts.format === 'xml') {

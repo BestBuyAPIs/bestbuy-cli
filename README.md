@@ -42,7 +42,7 @@ Usage: bestbuy [resource] [options]
     --show, -s            fields to show
     --sort, -r            sort results by fields (comma separated)
     --key, -k             Best Buy API key (default: "BBY_API_KEY environment variable")
-    --format, -f          format of the response as json, xml, or csv (default: "json")
+    --format, -f          format of the response as json, xml, csv, or tsv (default: "json")
     --output, -o          name of file to send output (optional; If not present, out will go to stdout)
     --bare, -b            newline delimited - each item on own line without extra cruft (default: false)
     --version, -v         show version information

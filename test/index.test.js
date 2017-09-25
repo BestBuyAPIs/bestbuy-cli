@@ -205,3 +205,22 @@ test('fetch products as csv without the header row using --bare', function (t) {
     t.end()
   })
 })
+
+test('fetch products as tsv', function (t) {
+  bestbuy('products -q "sku=5721722" -s "name,salePrice,url" -f tsv', function (err, output) {
+    t.error(err, 'no error')
+
+    var expected = `name\tsalePrice\turl\nSuper Mario Odyssey - Nintendo Switch\t59.99\thttps://api.bestbuy.com/click/-/5721722/pdp`
+    t.equals(output, expected, 'tsv header row present')
+    t.end()
+  })
+})
+
+test('fetch products as tsv without the header row using --bare', function (t) {
+  bestbuy('products --query "sku=5721722" --show "name,salePrice,url" --format tsv --bare', function (err, output) {
+    t.error(err, 'no error')
+    var expected = `Super Mario Odyssey - Nintendo Switch\t59.99\thttps://api.bestbuy.com/click/-/5721722/pdp`
+    t.equals(output, expected, 'csv header row not present')
+    t.end()
+  })
+})
