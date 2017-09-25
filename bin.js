@@ -30,7 +30,7 @@ function cli (args, stream, cb) {
     {
       name: 'format',
       abbr: 'f',
-      help: 'format of the response as json or xml',
+      help: 'format of the response as json, xml, csv or tsv',
       default: 'json'
     },
     {

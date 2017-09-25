@@ -1,0 +1,86 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku=5721722)?format=json&apiKey=XXX&show=name,salePrice,url&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzU3MjE3MjJfdXM=",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.007",
+            "totalTime": "0.012",
+            "partial": false,
+            "canonicalUrl": "/v1/products(sku=5721722)?show=name,salePrice,url&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "name": "Super Mario Odyssey - Nintendo Switch",
+                    "salePrice": 59.99,
+                    "url": "https://api.bestbuy.com/click/-/5721722/pdp"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Mon, 25 Sep 2017 17:59:30 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "407",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku=5721722)?format=json&apiKey=XXX&show=name,salePrice,url&cursorMark=AoIIP4AAADJwcm9kdWN0XzU3MjE3MjJfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzU3MjE3MjJfdXM=",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.009",
+            "totalTime": "0.009",
+            "partial": false,
+            "canonicalUrl": "/v1/products(sku=5721722)?show=name,salePrice,url&pageSize=100&cursorMark=AoIIP4AAADJwcm9kdWN0XzU3MjE3MjJfdXM=&format=json&apiKey=XXX",
+            "products": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Mon, 25 Sep 2017 17:59:30 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "324",
+            "Connection",
+            "Close"
+        ]
+    }
+]
