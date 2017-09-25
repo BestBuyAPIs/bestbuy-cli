@@ -7,6 +7,7 @@ const JSONStream = require('JSONStream')
 const logUpdate = require('log-update')
 const prettyMs = require('pretty-ms')
 const through = require('through2')
+const csv = require('fast-csv')
 
 function run (opts, stdout, cb) {
   var bby = bestbuy({key: opts.key})
@@ -19,8 +20,10 @@ function run (opts, stdout, cb) {
   var output
   var parser
 
+  opts.format = opts.format.toLowerCase()
+
   var dataStream = bby[`${opts.resource}AsStream`](opts.query, {
-    format: opts.format,
+    format: opts.format === 'csv' ? 'json' : opts.format,
     show: opts.show,
     sort: opts.sort
   })
@@ -32,9 +35,15 @@ function run (opts, stdout, cb) {
 
   dataStream.on('data', () => cnt++)
 
-  if (opts.format.toLowerCase() === 'json') {
+  if (opts.format === 'json') {
     parser = opts.bare ? JSONStream.stringify(false) : JSONStream.stringify()
-  } else if (opts.format.toLowerCase() === 'xml') {
+  } else if (opts.format === 'csv') {
+    var csvStream = csv.createWriteStream({
+      headers: !opts.bare,
+      objectMode: false
+    })
+    parser = csvStream
+  } else if (opts.format === 'xml') {
     parser = through(
       function (chunk, enc, cb) {
         if (opts.bare) {
