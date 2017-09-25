@@ -23,7 +23,7 @@ Get an API key at [developer.bestbuy.com](https://developer.bestbuy.com).
 npm install --global bestbuy-cli
 ```
 
-Don't want to install node? Download a standalone executable from the [GitHub Releases page](https://github.com/BestBuyAPIs/bestbuy-cli/releases)!
+Can't install node? [Download a standalone executable](https://github.com/BestBuyAPIs/bestbuy-cli/releases) from the GitHub Releases page!
 
 ## Usage
 
