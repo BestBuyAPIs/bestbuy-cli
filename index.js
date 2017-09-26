@@ -10,7 +10,7 @@ const through = require('through2')
 const csv = require('fast-csv')
 
 function run (opts, stdout, cb) {
-  var bby = bestbuy({key: opts.key})
+  var bby
   var total = 0
   var cnt = 0
   var start = process.hrtime()
@@ -19,6 +19,12 @@ function run (opts, stdout, cb) {
 
   var output
   var parser
+
+  try {
+    bby = bestbuy({key: opts.key})
+  } catch (err) {
+    return cb(err)
+  }
 
   opts.format = opts.format.toLowerCase()
 
@@ -52,14 +58,14 @@ function run (opts, stdout, cb) {
         }
         cb(null, chunk)
       }, // transform is a noop
-      function (cb) { // flush function
+      function (done) { // flush function
         if (!opts.bare) this.push(`\n</${opts.resource}>`) // add end tag
-        cb()
+        done()
       }
     )
     if (!opts.bare) parser.write(`<${opts.resource}>\n`)
   } else {
-    throw new Error(`unsupported format: ${opts.format}`)
+    return cb(new Error(`unsupported format: ${opts.format}`))
   }
 
   if (opts.output) {
