@@ -1,7 +1,7 @@
 {
   "name": "bestbuy-cli",
   "description": "Download data from the Best Buy Catalog API in bulk from the command line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Dan Flettre <flettre@gmail.com>",
   "bugs": {
     "url": "https://github.com/BestBuyAPIs/bestbuy-cli/issues"
