@@ -21,7 +21,7 @@ function run (opts, stdout, cb) {
   var parser
 
   try {
-    bby = bestbuy({key: opts.key})
+    bby = bestbuy({key: opts.key, debug: opts.debug})
   } catch (err) {
     return cb(err)
   }

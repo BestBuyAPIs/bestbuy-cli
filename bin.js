@@ -57,6 +57,13 @@ function cli (args, stream, cb) {
       abbr: 'h',
       help: 'show help',
       boolean: true
+    },
+    {
+      name: 'debug',
+      abbr: 'd',
+      help: 'show debug information',
+      boolean: true,
+      default: false
     }
   ])
 
@@ -109,6 +116,7 @@ if (require.main === module) {
     var code = 0
     if (err) {
       console.error(err.message)
+      console.error(err.stack)
       code = -1
     }
     updateNotifier({pkg: pkg}).notify()
