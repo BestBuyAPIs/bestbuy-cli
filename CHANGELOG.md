@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 * New feature: added `--debug` flag to help troubleshoot network issues
 
-## 1.0.1 2017-11-18
+## 1.0.2 2017-11-18
 
 * Updated `bestbuy` package to improve stability when downloading large streams.
 
