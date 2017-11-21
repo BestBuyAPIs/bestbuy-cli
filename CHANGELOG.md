@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.1.1 2017-11-20
+
+* Updated `bestbuy` package as even more stability improvements were added when downloading large streams.
+
 ## 1.1.0 2017-11-20
 
 * New feature: added `--debug` flag to help troubleshoot network issues
