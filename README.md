@@ -38,10 +38,11 @@ Usage: bestbuy [resource] [options]
       bestbuy categories
       bestbuy products --query "active=true" --show "name,sku" --output products.json
       bestbuy stores --format xml --output stores.xml
+      bestbuy stores --query "region=GA&storeType='outlet center'" --output stores.json
 
     resource              resource to download: products, categories, stores
-    --query, -q           use a custom query to filter the results
-    --show, -s            fields to show
+    --query, -q           use a custom query to filter the results (ampersand separated)
+    --show, -s            fields to show (comma separated)
     --sort, -r            sort results by fields (comma separated)
     --key, -k             Best Buy API key (default: "BBY_API_KEY environment variable")
     --format, -f          format of the response as json, xml, csv or tsv (default: "json")
