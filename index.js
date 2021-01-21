@@ -10,31 +10,31 @@ const through = require('through2')
 const csv = require('fast-csv')
 
 function run (opts, stdout, cb) {
-  var bby
-  var total = 0
-  var cnt = 0
-  var start = process.hrtime()
-  var progressInterval
-  var logUpdater = logUpdate.create(stdout)
+  let bby
+  let total = 0
+  let cnt = 0
+  const start = process.hrtime()
+  let progressInterval
+  const logUpdater = logUpdate.create(stdout)
 
-  var output
-  var parser
+  let output
+  let parser
 
   try {
-    bby = bestbuy({key: opts.key, debug: opts.debug})
+    bby = bestbuy({ key: opts.key, debug: opts.debug })
   } catch (err) {
     return cb(err)
   }
 
   opts.format = opts.format.toLowerCase()
 
-  var dataStream = bby[`${opts.resource}AsStream`](opts.query, {
+  const dataStream = bby[`${opts.resource}AsStream`](opts.query, {
     format: opts.format === 'csv' || opts.format === 'tsv' ? 'json' : opts.format,
     show: opts.show,
     sort: opts.sort
   })
 
-// a "total" event is emitted so we know how many total products will be sent
+  // a "total" event is emitted so we know how many total products will be sent
   dataStream.on('total', t => {
     total = t
   })
@@ -44,7 +44,7 @@ function run (opts, stdout, cb) {
   if (opts.format === 'json') {
     parser = opts.bare ? JSONStream.stringify(false) : JSONStream.stringify()
   } else if (opts.format === 'csv' || opts.format === 'tsv') {
-    var csvStream = csv.createWriteStream({
+    const csvStream = csv.createWriteStream({
       headers: !opts.bare,
       objectMode: false,
       delimiter: opts.format === 'tsv' ? '\t' : ','
@@ -76,11 +76,11 @@ function run (opts, stdout, cb) {
   }
 
   function updateProgress () {
-    var timeSoFar = process.hrtime(start)
-    var timeSoFarInMs = ((timeSoFar[0] * 1e9) + timeSoFar[1]) / 1e6
-    var timeSoFarInSec = timeSoFarInMs / 1e3
+    const timeSoFar = process.hrtime(start)
+    const timeSoFarInMs = ((timeSoFar[0] * 1e9) + timeSoFar[1]) / 1e6
+    const timeSoFarInSec = timeSoFarInMs / 1e3
 
-    var totalTime = prettyMs(timeSoFarInMs)
+    const totalTime = prettyMs(timeSoFarInMs)
     logUpdater(`${opts.resource}: ${cnt}/${total} (${(cnt / total * 100).toFixed(2)}%), Time: ${totalTime}, ${opts.resource}/sec: ${Math.round(cnt / timeSoFarInSec)}`)
   }
 
