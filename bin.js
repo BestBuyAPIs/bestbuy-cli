@@ -7,7 +7,7 @@ const updateNotifier = require('update-notifier')
 const run = require('.')
 
 function cli (args, stream, cb) {
-  const clopts = require('cliclopts')([
+  var clopts = require('cliclopts')([
     {
       name: 'query',
       abbr: 'q',
@@ -67,7 +67,7 @@ function cli (args, stream, cb) {
     }
   ])
 
-  const argv = require('minimist')(args, {
+  var argv = require('minimist')(args, {
     alias: clopts.alias(),
     boolean: clopts.boolean(),
     default: clopts.default()
@@ -97,7 +97,7 @@ Usage: bestbuy [resource] [options]
 `)
     clopts.print(stream)
 
-    stream.write('\nVisit https://developer.bestbuy.com/documentation for more details on writing custom queries.\n')
+    stream.write(`\nVisit https://developer.bestbuy.com/documentation for more details on writing custom queries.\n`)
     return cb()
   }
 
@@ -113,13 +113,13 @@ Usage: bestbuy [resource] [options]
 
 if (require.main === module) {
   cli(process.argv.slice(2), process.stdout, function done (err) {
-    let code = 0
+    var code = 0
     if (err) {
       console.error(err.message)
       console.error(err.stack)
       code = -1
     }
-    updateNotifier({ pkg: pkg }).notify()
+    updateNotifier({pkg: pkg}).notify()
     process.exit(code)
   })
 } else {
